@@ -428,6 +428,7 @@ function lawyer_landing_page_footer_bottom(){
                 <span class="by">
                     <?php echo esc_html__( 'Developed By', 'lawyer-landing-page' ); ?>
                     <a href="<?php echo esc_url( 'https://dagim.yenesity.com/' ); ?>" rel="nofollow" target="_blank"><?php echo esc_html__( 'Technopia', 'lawyer-landing-page' ); ?></a>.
+                    <?php printf( esc_html__( 'Powered by %s', 'lawyer-landing-page' ), '<a href="'. esc_url( __( 'https://wordpress.org/', 'lawyer-landing-page' ) ) .'" target="_blank">WordPress</a>' ); ?>.
                     <?php
                     if ( function_exists( 'the_privacy_policy_link' ) ) {
                         the_privacy_policy_link();
