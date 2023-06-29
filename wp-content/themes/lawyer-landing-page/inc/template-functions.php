@@ -426,6 +426,8 @@ function lawyer_landing_page_footer_bottom(){
                 ?>
                 </span> 
                 <span class="by">
+                    <?php echo esc_html__( 'Developed By', 'lawyer-landing-page' ); ?>
+                    <a href="<?php echo esc_url( 'https://dagim.yenesity.com/' ); ?>" rel="nofollow" target="_blank"><?php echo esc_html__( 'Technopia', 'lawyer-landing-page' ); ?></a>.
                     <?php
                     if ( function_exists( 'the_privacy_policy_link' ) ) {
                         the_privacy_policy_link();
